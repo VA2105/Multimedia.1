@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  #container{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 0px 35px 28%;
+    margin-left:auto;
+    margin-bottom: 10px;
+    border: 3px solid rgb(109, 109, 109);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: left;    
+  }
+
+  #nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #000000;
+    border-top: 3px solid rgb(109, 109, 109);
+    border-right: 3px solid rgb(109, 109, 109);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  #nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  #nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  #body {
+    margin-left:25%;padding:1% 16px;height:1000px;
+
+  }
+  
+  #body p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    background-color: #000000;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid #202020;
+    border-radius: 10px;
+  }
+  #body h2 {
+    margin-top: 5%;
+    font-family:monospace;
+  }
+  #quien_es h2 {
+    margin-top: 2%;
+  }
+  
+  #body hr {
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    border: #0f0f0f;
+  }
+
+  #imagenleft{
+    float: left;
+  }
+
+  #imagenright{
+    float: right;
+  }
+
+  .imagen1{
+    width: 247px;
+    height: 352px;
+    border: 3px solid #202020;;
+  }
+
+  .imagen2{
+    margin-top: 2%;
+    width: 220px;
+    height: 262px;
+    border: 3px solid #202020;;
+  }
+
+  .imagen3{
+    margin-left: 3%;
+    width: 184x;
+    height: 227px;
+    border: 3px solid #202020;;
+  }
+
+  .imagen4{
+    margin-top: 0.5%;
+    margin-right: 1%;
+    padding: 1% 1% 1% 0.5%;
+    width: 300x;
+    height: 119px;
+    border: 3px solid #202020;;
+  }
+
+  #footer {
+    width: 99%;
+    height: 50px;
+    padding-top: 1%;
+    border: 3px solid #555;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }

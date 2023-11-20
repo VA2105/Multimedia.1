@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadata-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vito Addante" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Vito Addante"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Vito Addante | Desarrollo Web Front-End</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top shadow">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-Toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-Toggler">
+          <a class="navbar-brand" href="#"
+            ></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyects">Proyectos</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Hero-->
+    <section class="hero align-items-stretch container">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        
+        <h1>Hola, soy Vito Addante</h1>
+        <h2>Estudiante de Desarrollo web y Programación de software</h2>
+      </div>
+
+      <div class="hero-inferior text-center">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="/img/html5-css3-js.png"
+          alt="Monitor, Laptop y logos HTML, CSS, JavaScript"
+        />
+        <h5 class="mx-3 p-4">
+          "¡Bienvenido a mi portafolio como programador web! Soy un estudiante
+          universitario de la Universidad Rafael Belloso Chacín, donde estoy
+          estudiando para obtener mi título en ingeniería en informatica. A lo
+          largo de mi carrera, he desarrollado habilidades en el diseño y
+          desarrollo de sitios web atractivos y eficientes en términos de
+          funcionamiento. Este portafolio es una recopilación de mis proyectos
+          más destacados, donde podrás ver mis habilidades en acción y conocer
+          mi experiencia en diferentes tecnologías web. ¡Espero que disfrutes
+          explorarlos tanto como yo disfruté creándolos!"
+        </h5>
+      </div>
+
+      <div id="proyects" class="proyects">
+        <div class="row mt-3 d-flex flex-row justify-content-center">
+          <div class="col-sm-4">
+            <h3>Proyectos</h3>
+          </div>
+
+          <div class="pages row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/edison.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Thomas Alba Edison</h5>
+                  <p class="card-text">
+                      Pagina que habla brevemente sobre la vida de El inventor Thomas Edison, aqui se puede encontrar una breve biografia,
+                      algunos de sus inventos y logros; y su relacion con Nikola Tesla.
+                  </p>
+                  <a href="https://github.com/VA2105/Multimedia.git" class="card-link">GitHub Proyect</a>
+                  <a href="https://vamultimedia.000webhostapp.com/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/turing.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">La Vida de Alan Turing</h5>
+                  <p class="card-text">
+                    One page que habla sobre el Inventor Alan Turing y como fue su vida durante una epoca dificil para el
+                      debido a su orientacion sexual pero que igualmente esto no evito que hiciera grandes aportes a la ciencia.
+                  </p>
+                  <a href="https://github.com/VA2105/Multimedia.git" class="card-link">GitHub Proyect</a>
+                  <a href="https://vitoaddantemultimedia.000webhostapp.com/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/retro.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Moda retro.</h5>
+                  <p class="card-text">
+
+                      Una sencilla one page que habla sobre como fue la moda para hombres y mujeres en los años 80, destacando un poco la
+                      manera tan unisex que tenian de vestirse en aquella epoca.
+                    </p>
+                  <a href="https://github.com/VA2105/Multimedia.git" class="card-link">GitHub Proyect</a>
+                  <a href="https://modaretrova.000webhostapp.com/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/pastoraleman.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">El pastor Aleman</h5>
+                  <p class="card-text">
+
+                      Pagina formato landing page que habla sobre la historia y el origen de la raza canina pastor aleman, sus caracteristicas fisicas y como es su entrenamiento.
+                    </p>
+                  <a href="https://github.com/VA2105/Multimedia.git" class="card-link">GitHub Proyect</a>
+                  <a href="https://temalibreva1.000webhostapp.com/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/Movember.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Movember</h5>
+                  <p class="card-text">
+                      Pagina estilo One page que habla sobre la historia y como se inicio el movimiento llamado "Movember" cuyo objetivo es apoyar al hombre en la lucha contra distintas enfermedades tantos fisicas como mentales que afectan a millones y que ademas son las principales causa de muertes en hombres.
+                  </p>
+                  <a href="https://github.com/VA2105/Multimedia.git" class="card-link">GitHub Proyect</a>
+                  <a href="http://pagmovemberva.great-site.net/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/dios.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Kanye West</h5>
+                  <p class="card-text">
+                    Blog que habla sobre el exitoso rapero, compositor, empresario multimillonario y enigmatico Kanye West(Legalmente "Ye"); y como fue la trayectoria de su vida y de su carrera a lo largo de los años hasta la actualidad.  
+                    </p>
+                  <a href="https://github.com/VA2105/Multimedia.git" class="card-link">GitHub Proyect</a>
+                  <a href="https://pagkanyewest.azurewebsites.net/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+           <div>
+               <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4 d-flex flex-row">
+          <!-- Facebook -->
+          
+       <a href="https://github.com/VA2105/Multimedia.git"><img src="/iconitos/github.png" alt="icono github" width="40px" height="40px"></a>
+
+
+    
+          <!-- Twitter -->
+             <a href="https://twitter.com/Addante2105"><img src="/iconitos/twitter.png" alt="icono twitter" width="40px" height="40px">
+          </a>
+
+    
+          <!-- Instagram -->
+             <a href="https://www.instagram.com/addante_vito/"><img src="/iconitos/insta.png" alt="icono instagram" width="40px" height="40px"></a>
+
+         
+        <!-- Section: Social media -->
+      
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(36, 36, 36, 0.679);">
+        © 2023 Copyright: Vito Addante 
+
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!--JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
